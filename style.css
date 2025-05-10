@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cartaz {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  text-align: center;
+  max-width: 500px;
+}
+
+h1 {
+  color: #d6336c;
+  font-size: 2.2rem;
+}
+
+p {
+  color: #555;
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+button {
+  background-color: #ff69b4;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c2185b;
+}
+/* Para telas pequenas, como celulares */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px; /* Ajuste do tamanho da fonte */
+  }
+  .container {
+    padding: 10px; /* Ajuste do preenchimento */
+  }
+}
